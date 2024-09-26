@@ -24,3 +24,6 @@ Excluir a configuração local
 
 git config --unset user.name
 git config --unset user.email
+
+ for i in range(0,4):
+        nome = input("Digite seu nome: ")
