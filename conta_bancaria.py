@@ -4,6 +4,7 @@ class ContaBancaria:
     def __init__(self, saldo_inicial, numeroConta):
         self.__saldo = saldo_inicial
         self.__numeroConta = numeroConta
+        jnjdenjkdnwdk
 
     def getNumeroConta(self):
         return self.__numeroConta
