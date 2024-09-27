@@ -1,4 +1,4 @@
-from classes.cliente import Cliente
+from clienteBanco.cliente import Cliente
 
 class ContaBancaria:
     def __init__(self, saldo_inicial, numeroConta):
