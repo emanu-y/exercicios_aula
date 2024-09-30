@@ -7,7 +7,7 @@ class Cliente:
         self.nome = nome 
         self.pedidos = []
 
-    def addPedido(self, pedido):
+    def addPedido(self, pedido):         
         self.pedidos.append(pedido)
 
     def exibirPedidos(self):
