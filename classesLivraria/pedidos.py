@@ -2,7 +2,7 @@ from classesLivraria.livro import Livro
 
 class Pedido:
     def __init__(self, cliente, quantidade ):
-        self.cliente = cliente
+        self.cliente = cliente 
         self.livros = []
         self.quantidade = quantidade
 
