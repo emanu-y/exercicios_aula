@@ -1,5 +1,5 @@
-from classesLivraria.livro import Livro
-from classesLivraria.pedidos import Pedido
+from livro import Livro
+from pedidos import Pedido
 
 
 class Cliente:

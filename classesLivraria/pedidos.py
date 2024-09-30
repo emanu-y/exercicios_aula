@@ -1,4 +1,4 @@
-from classesLivraria.livro import Livro
+from livro import Livro
 
 class Pedido:
     def __init__(self, cliente, quantidade ):
@@ -37,3 +37,15 @@ class Pedido:
                 return 'Pagamento relizado'
             else:
                 return 'Valor insuficiente'
+            
+
+
+
+
+if __name__ == "__main__":
+    livro1 = Livro('lalal', 'jkdnwd', 87.00, 8)
+    pedido1= Pedido('eu', 5)
+    pedido1.ADDLIvro(livro1)
+    pedido1.compra(100)
+
+
