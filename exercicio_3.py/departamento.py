@@ -12,11 +12,11 @@ class Departamento:
 
     def addFuncionario(self, funcionario):
         self.funcionarios.append(funcionario)
-        print(f'O funcionario {funcionario} foi adicioando ao departamento {self.nome}')
+        print(f'O funcionario {funcionario.getNome()} foi adicioando ao departamento {self.departamento}')
 
 
     def mostrarFuncionarios(self):
         print(f'os funcionarios do departamento {self.departamento} são:s')
         for funcionario in self.funcionarios:
-            return funcionario
+            return funcionario.getNome()
 
