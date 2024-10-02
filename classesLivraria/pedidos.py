@@ -10,12 +10,6 @@ class Pedido:
     def getClinete(self):
         return self.cliente
     
-    def infoPedido(self):
-        print(f'Nome: {self.cliente}')
-        print(f'livros: {self.livros}')
-        print(f'Valor: {sum(livro.getpreço)}')
-        
-
     def ADDLIvro(self, livro):
         if livro == livro.getTitulo():
            if self.quantidade <= livro.getEstoque():
@@ -25,6 +19,9 @@ class Pedido:
                 return f'Temos somente {livro.getEstoque()} disponovel'
         else:
              return 'Livro nao escontrado'
+
+
+    def somarCompra(self)            
     
     def compra(self, pagamento):
             for livro in self.livros:
