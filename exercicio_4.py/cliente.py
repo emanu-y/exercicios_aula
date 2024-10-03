@@ -1,12 +1,14 @@
 
-
+from agencia import Agencia
+from carro import Carro
 class Cliente:
     def __init__(self, nome):
         self.nome = nome
+        
        
 
     def alugarCArro(self, carro):
-        if carro in self.carros:
+        if carro in agencia.getCarro():
             if carro.getStatus() == True:
                 carro.setStatus(False)
                 print(f'aligou carro')
@@ -20,4 +22,11 @@ class Cliente:
         carro.setStatus(True)
         print('carro devolvido')
 
+
+
+if __name__ == '__main__':
+   pass
+
   
+
+
