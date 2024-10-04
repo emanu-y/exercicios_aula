@@ -27,7 +27,7 @@ if __name__ == '__main__':
     c1.addRoupaCarrinho(carrinho1, vestido)
     c1.addRoupaCarrinho(carrinho1, blusa)
     c1.mostrarCarinho(carrinho1)
-
+    maria= Cliente()
 
 
 

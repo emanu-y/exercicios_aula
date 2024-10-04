@@ -8,5 +8,5 @@ class Roupa:
     def getTipo(self):
       return self.tipo
     #   print(self.tipo) *forma errada de se fazer, porque aparece o none abaixo do nome
-2
+
         
